@@ -1,0 +1,156 @@
+@font-face {
+	src: url(fonts/HelveticaNeue.ttf);
+	font-family: Helvetica;
+}
+html, body {
+	font-family: Helvetica;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+header {
+	height: 40px;
+	background-color: black;
+	overflow: hidden;
+	position: fixed;
+	width: 1270px;
+	opacity: 0.8;
+}
+.wrapper {
+	width: 1270px;
+	margin: auto;
+	box-shadow: 0 0 15px black;
+}
+.logo {
+	display: inline-block;
+	margin-left: 60px;
+	width: 40%;
+}
+.main-menu {
+	float: right;
+	height: 40px;
+	margin-top: 10px;
+}
+.nav {
+	margin-right: 75px;
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+}
+.nav:hover {
+	color: red;
+}
+.top-img {
+	background-image: url(images/car.jpg);
+	background-position: center center; /* Положение фона */
+    background-repeat: no-repeat; /* Отменяем повторение фона */
+    background-size: 100%;
+}
+.top-block {
+	height: 300px;
+	text-align: center;
+	color: white;
+	padding: 80px;
+}
+.learn {
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+.learn:hover {
+	background-color: white;
+	color: red;
+}
+h1 {
+	font-size: 50px;
+}
+.content {
+	width: 1270px;
+	height: 640px;
+	display: block;
+	background-image: url(images/fon-content.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.content-left {
+	width: 400px;
+	float: left;
+	color: black;
+	padding: 60px;
+}
+.content-right {
+	width: 400px;
+	float: right;
+	color: white;
+	padding: 60px;
+}
+footer {
+	background-color: #101316;
+	color: white;
+	width: 100%;
+	display: inline-block;
+	font-size: 13px;
+}
+.about-footer {
+	width: 300px;
+	float: left;
+	margin-left: 70px;
+	margin-bottom: 5px;
+}
+.getinvolved-footer {
+	width: 300px;
+	float: left;
+	margin-bottom: 5px;
+}
+.helpcenter-footer {
+	width: 300px;
+	float: left;
+	margin-bottom: 5px;
+}
+.social-footer {
+	width: 300px;
+	float: left;
+}
+.social-icons {
+	display: inline-block;
+}
+.fb {
+	float: left;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.tw {
+	float: left;
+	margin-left: 15px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.google {
+	float: left;
+	margin-left: 15px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.footer-text {
+	color: #b1b9c6;
+}
+.content-about {
+	padding: 70px;
+}
+
+.content-contact {
+	padding: 70px;
+	width: 270px;
+	float: left;
+
+}
+.content-contact hr {
+	float: left;
+}
+.map {
+	float: right;
+	margin-top: 40px;
+}
